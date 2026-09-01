@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build outputs & Bundles
+dist/
+**/dist/
+build/
+*.exe
+backend.exe
+test
+
+# Databases & Storage
+*.db
+*.sqlite
+*.sqlite3
+data/
+**/data/
+
+# Tools & Local runtime
+.node/
+.agents/
+.idea/
+.vscode/
+*.log
