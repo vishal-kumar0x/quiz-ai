@@ -67,12 +67,4 @@ To quickly test the production-ready build of the platform on your local machine
 ### 4. The Live Leaderboard
 As your friends finish the exam and lock in their answers, look at the Host screen. Instead of generic text, their cards will immediately snap to the Leaderboard accompanied by glowing Golden, Silver, or Bronze medals depending on their overall score!
 
-## 🔒 Important Security Notice (API Keys)
 
-If you intend to upload this project to a public GitHub repository, **NEVER** commit your `GEMINI_API_KEY`. 
-The repository is already configured with a `.gitignore` file that prevents `.env` and SQLite databases from being uploaded. 
-When another user clones this repository, they should:
-1. Copy `.env.example` to `.env`.
-2. Generate their own free Gemini API Key from Google AI Studio.
-3. Paste their key into the `.env` file.
-This ensures the system remains fully functional for anyone who downloads it, while completely protecting your personal API quotas from being exposed or abused!
